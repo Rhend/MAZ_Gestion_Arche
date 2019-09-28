@@ -1,0 +1,717 @@
+<PROJECTS>
+	<PROJECT>
+		<NAME>ABRI</NAME>
+		<DESCRIPTION>Des tunnels cachés et des autres issues de secours creusées sous l'Arche. Vous pouvez y trouver refuge ou vous enfuir si l'Arche est envahie.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>10</TECHNOLOGIE>
+		<DEFENSE>20</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Manipulation / Observation</SKILL>
+		<WORK>2 * Nombre PJ</WORK>
+		<BONUS>Défense +2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>ARMÉE</NAME>
+		<DESCRIPTION>Une armée est plus puissante qu'une milice, et peut servir à des campagnes militaires dans la Zone.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>20</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Défense +2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>ARÈNE DE COMBAT</NAME>
+		<DESCRIPTION>Une cage en métal dans laquelle les mutants les plus forts combattent pour les balles et la gloire. Les mutants les moins enclins au combat font des paris. Les armes ne sont pas autorisées dans la cage, mais les mutations sont considérées comme faisant partie du jeu.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Défense +1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>ARSENAL</NAME>
+		<DESCRIPTION>Dans cet atelier spécialisé, le Peuple peut construire en masse des armes à feu à rechargement par la culasse. Un arsenal est souvent combiné avec un atelier d'artificier.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>35</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER>Fonderie</OTHER>
+		<SKILL>Tir / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Défense +2D6</BONUS>
+		<SPECIAL>Les armes à rechargement par la culasse deviennent disponibles dans l'Arche.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Atelier</NAME>
+		<DESCRIPTION>Endroit ou vous devrez vous rendre si vous avez besoin de faire réparer de l'équipement cassé mais cela vous coûtera des balles.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>10</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL>L'atelier est un pré-requis pour plusieurs projets.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Atelier d'artificier</NAME>
+		<DESCRIPTION>Un atelier spécialisé dans la production de poudre et autres explosifs.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>30</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER>Distillerie</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Défense + 1D6</BONUS>
+		<SPECIAL>Combiner à la Fonderie, l'atelier d'artificer peut être utilisé pour produire des balles. Elles peuvent ensuite s'échanger dans l'Arche à la moitié de leur valeur habituelle</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Autocratie</NAME>
+		<DESCRIPTION>Un Caïd devient le seul dirigeant de l'Arche. Son ordre fait loi.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>30</DEFENSE>
+		<OTHER>Ne peut pas se combiner avec Droit de Vote ou Libre Entreprise.</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Défense + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Banque</NAME>
+		<DESCRIPTION>Un lieu ou le Peuple peut déposer ces objets de valeurs et être relativement sûr qu'ils seront en sécurité.</DESCRIPTION>
+		<CULTURE>20</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Bétail</NAME>
+		<DESCRIPTION>Des porcs et autres animaux de ferme des Temps d'Avant ère librement dans la Zone et sont retourné à l'état sauvage ou on complètement muté. Pour autant ils peuvent être capturé et mis au service du Peuple.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Connaissance de la Zone</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Bibliothèque</NAME>
+		<DESCRIPTION>Une collection de livres, magasines et journaux des Temps d'Avant.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS>Culture + 3D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Cadrant solaire</NAME>
+		<DESCRIPTION>Un objet consistant en un bâton placé sur un disque plat d'une teneur ou d'une autre permettant au Peuple de connaître l'heure en regardant l'ombre du bâton bouger.</DESCRIPTION>
+		<CULTURE>5</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Technologie +1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Calendrier</NAME>
+		<DESCRIPTION>En se servant de quelques observations astronomique (lorsque le brouillard nocif de la Zone permet d'observer les étoiles), le Peuple parvient à recréer un calendrier annuel de 365 jours.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>15</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Cannibalisme</NAME>
+		<DESCRIPTION>Si l'Arche est au bord de la famine, le Peuple peut recourir à des mesures extrêmes.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 3D6 / Culture -1D6</BONUS>
+		<SPECIAL>Augmente la perte de population de +1D6</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Chambre de torture</NAME>
+		<DESCRIPTION>Dans cette Zone à l'écart, ceux suspecté de crime ou les traitres à l'Arche seront tourmentés jusqu'à ce qu'ils révèlent sur ce qu'ils savent, et plus encore...</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Défense + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Chemin de fer</NAME>
+		<DESCRIPTION>Relier deux points de la Zone par un chemin de fer est un projet ambitieux et très difficile. Chaque secteur traversés compte comme un projet différent. Les Zones traversées doivent avoir été explorées par les PJ ou par le projet spécial Exploration de la Zone.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>35</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Fonderie</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Permet de construire un Train.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Chirurgie</NAME>
+		<DESCRIPTION>Les toubibs de l'Arche ont appris l'anatomie mutante, ainsi que l'usage de l'éther et autres anesthésiants, ils peuvent pratiquer certaines opérations simples.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>35</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Distillerie</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Tout jet de Soin pour soigner une blessure Critique de l'Arche reçoit un modificateur de +2. La perte de population est réduite de 1.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Collectivisme</NAME>
+		<DESCRIPTION>La propriété privée est déclarée illégale. Tous les mutants doivent oeuvrer pour le bien commun et les ressources sont distribuées équitablement.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>30</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Ne peut pas se combiner avec Libre Entreprise.</OTHER>
+		<SKILL>Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Colonie</NAME>
+		<DESCRIPTION>Le Peuple trouve un nouvel endroit ou vivre et établit une colonie dans un autre secteur. Lorsque la colonie est terminée décidez de combien d'habitant de l'Arche vont s'y installer.</DESCRIPTION>
+		<CULTURE>20</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>La colonie doit être placée dans un secteur exploré par les PJ ou une Expédition dans la Zone, et à au moins 2D6 secteurs de l'Arche.</OTHER>
+		<SKILL>Endurance</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Cette colonie aura ses propres NDEV et commence avec 0 dans chacun d'entre eux. De nouveaux projets peuvent y être entrepris, séparément de ceux de l'Arche. Certains projets, comme la route, l'héliographe ou le chemin de fer connectent les deux campements. Ils donnent leurs bonus de NDEV à chacun d'eux une fois connectés.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Défenses</NAME>
+		<DESCRIPTION>Des palissades, du terrassement ou même des douves. Protège l'Arche contre les attaques extérieurs et rend plus difficile d'y entrer ou sortir discrètement.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Force / Observation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Défense + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Distillerie</NAME>
+		<DESCRIPTION>Cet ensemble de réservoirs, bouteilles et tubes peut être utlisé pour extraire un grand nombre de substance chimique en brûlant du bois et des plantes. L'un de ses nombreux usages est la conception de gnôl.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>5</NOURRITURE>
+		<TECHNOLOGIE>15</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Atelier</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Divise par 2 le prix de la gnôl dans l'Arche. La distillerie est nécéssaire pour plusieurs autres projets plus avancés.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Droit de vote</NAME>
+		<DESCRIPTION>Tous les mutants de l'Arche ont le droit de voter pour prendre ensemble les décisions importantes de l'Arche.</DESCRIPTION>
+		<CULTURE>30</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Ne peut pas se combiner avec Autocratie.</OTHER>
+		<SKILL>Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Eclairage électrique</NAME>
+		<DESCRIPTION>Illumine l'Arche comme une ville des Temps d'Avant, et la transforme en un fanale de lumière visible la nuit à des kilomètres à la ronde.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>40</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Atelier et générateur</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Ecole</NAME>
+		<DESCRIPTION>Içi le Peuple pourra en apprendre plus sur les Temps d'Avant et sur tout ce que vous allez découvrire sur le Monde du Renouveau.</DESCRIPTION>
+		<CULTURE>20</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension / Connaissance de la Zone</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6 / Technologie + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Ecurie</NAME>
+		<DESCRIPTION>Les bêtes corrosives et d'autres animaux de la Zone peuvent être capturés, dressés et servir de monture au Peuple.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>10</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Connaissance de la Zone</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 / Défense + 1D6</BONUS>
+		<SPECIAL>Une fois les écuries terminées, le Peuple peut troquer et utiliser des montures.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Encre et papier</NAME>
+		<DESCRIPTION>Le Peuple à trouvé une méthode pour recycler les lambeaux de papier des Temps d'Avant ou transformer les plantes de la Zone en papier, et parvient à faire de l'encre pour écrire.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>15</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 2D6</BONUS>
+		<SPECIAL>Entre et Papier est un pré-requis pour l'Imprimerie.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Eolienne</NAME>
+		<DESCRIPTION>Une grande structure avec des palmes, placée sur une sorte de tour, construire de telle manière à toujours se tourner vers le vent.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>10</NOURRITURE>
+		<TECHNOLOGIE>15</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Atelier</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 1D6</BONUS>
+		<SPECIAL>L'éolienne permet de faire fonctionner le moulin ou un générateur, mais seulement lorsqu'il y a du vent.</SPECIAL>
+	</PROJECT>	
+	<PROJECT>
+		<NAME>Expédition dans la Zone</NAME>
+		<DESCRIPTION>L'expédition dans la Zone est un projet spécial, décrit en détail dans le châpitre 8. Il ne nécéssite pas de points de travail et peut être entrepris plusieurs fois. Une seule expédition dans la Zone peut être envoyée par Assemblée. Les PJ décident si ils souhaitent rejoindre l'expédition ou non.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL></SKILL>
+		<WORK></WORK>
+		<BONUS>Variable</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Fonderie</NAME>
+		<DESCRIPTION>Un four à métaux ou le Peuple peut fondre des matériaux des Temps d'Avant et les mouler pour produire des nouveaux équipement.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>25</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Fonderie est un pré-requis pour plusieurs autres projets.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Fumoir</NAME>
+		<DESCRIPTION>Une petite maison ou abri où la viande et le poisson obtenus dans la Zone peuvent être fumés, leur permettant de rester comestible bien plus longtemps.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>5</NOURRITURE>
+		<TECHNOLOGIE>10</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Partie de chasse</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Générateur</NAME>
+		<DESCRIPTION>Une machine construite avec des cables et des aimants, capable de générer du courant éléctrique.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Un atelier. Nécéssite aussi un moteur à vapeur, un véhicule des Temps d'Avant en état de marche, ou des mutants sur un tapis de course ou dans une roue.</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Héliographe</NAME>
+		<DESCRIPTION>Un objet capable d'envoyer rapidement des messages courts sur de longues distances, en utilisant des signaux lumineux et des miroires.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Un atelier, et le peuple doit avoir soit établi le contact avec une autre colonie, soit en avoir fondé une.</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Imprimerie</NAME>
+		<DESCRIPTION>Avec cette lourde presse d'impression, le Peuple peut imprimer de simples pamphlets, journaux et livres.</DESCRIPTION>
+		<CULTURE>20</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Atelier, Encre et Papier</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Libre entreprise</NAME>
+		<DESCRIPTION>Le Peuple établi un système dans lequel chaque mutant est libre de travailler pour monter sa propre affaire. L'esclavage devient illégale.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>30</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Ne peut pas se combiner avec Collectivisme, Autocratie et Marché aux Esclaves.</OTHER>
+		<SKILL>Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Marché</NAME>
+		<DESCRIPTION>Le troc a toujours lieu dans l'Arche, mais avec un endroit prévu à cet effet, le commerce est mieux organisé.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>10</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 / Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Marché aux Esclaves</NAME>
+		<DESCRIPTION>Les Caïds de l'Arche échangent des esclaves, pris dans le Peuple ou d'autres groupes de la Zone. Ils commercent entre eux ou avec des groupes d'esclavagiste itinérant.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 /  Défense + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Milice</NAME>
+		<DESCRIPTION>Une force armée dont le rôle est de protéger l'Arche contre les attaques extérieur et de maintenir l'ordre.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Défense + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Moteur à vapeur</NAME>
+		<DESCRIPTION>Une machine incroyable qui fonctionne au feu de bois et à l'eau.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>30</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Fonderie, Distillerie</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL>Peut alimenter un générateur, un train ou un véhicule à vapeur.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Moulin</NAME>
+		<DESCRIPTION>Un simple mécanisme qui permet de moudre les plantes et le grain en farine pour pouvoir faire du pain. Il est activé à la main, par une roue à aube ou une éolienne.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Terres agricoles</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Musée</NAME>
+		<DESCRIPTION>Une exposition d'objets des Temps d'Avant. Le Peuple vient la visiter pour en apprendre plus sur l'ancien monde.</DESCRIPTION>
+		<CULTURE>5</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6 / Technologie + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Navire</NAME>
+		<DESCRIPTION>Un navire construit à partir de débris, bien plus grand que ce que pourrait construire un Rafistoleur seul. Il peut être à vapeur si le Peuple à completé le projet sinon à voile ou à rame.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Port</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 / Culture + 1D6 / Défense + 1D6</BONUS>
+		<SPECIAL>Le navire peut transporter jusqu'à 50 personnes et peut servir à explorer les secteurs côtiés de la Zone. Le temps nécéssaire à l'exploration est divisé par 2 par rapport à l'exploration à pied. Il peut également servir à fuir des menaces en mer et donne un Bonus d'Equipement de +1 dans ce genre de situation. Armure 3 Résistance 20</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Partie de chasse</NAME>
+		<DESCRIPTION>Le Peuple organise des expéditions dans la Zone afin de traquer et tuer des bêtes sauvages pour leur viande.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Tir</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 3D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Port</NAME>
+		<DESCRIPTION>Un simple quai qui permet de charger ou décharger les bâteaux plus facilement.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>10</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>L'Arche doit être proche de l'eau.</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS></BONUS>
+		<SPECIAL>Ce projet est un pré-requis pour construire un Navire.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Radio</NAME>
+		<DESCRIPTION>Un objet assez grossier capable de communication radio, qui utilise une sorte de cristal pour ajuster le courant.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>50</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Atelier / Générateur</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Roue à aubes</NAME>
+		<DESCRIPTION>Une grande roue construite en bois, métal de récupération et plastique, aggrémentée de lames ou de sceaux.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>10</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 1D6</BONUS>
+		<SPECIAL>Doit être placé sur un court d'eau ou une cascade, la roue à aube peut alimenter un moulin ou un générateur.</SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Route</NAME>
+		<DESCRIPTION>Transforme l'un des chemins de la Zone en Route qui peut par la suite accueillir des chariots ou des véhicules à moteur. Ce projet peut être entrepris de nombreuses fois, chaque secteur traversé par une route compte comme un projet séparé.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>20</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 / Culture + 1D6 mais uniquement lorsque la route atteint une autre colonie dans la Zone. Les bonus sont pour la route entière, pas pour chaque secteur.</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Réseau d'informateurs</NAME>
+		<DESCRIPTION>Un système d'agent où les membres du Peuple s'espionnent les uns les autres et rapportent toute activité suspecte à un ou plusieurs Caïds.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Furtivité / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Défense + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Statue</NAME>
+		<DESCRIPTION>Une grande construction à l'éffigie de l'Ainé ou d'un Caïd à l'égo surdimensionné.</DESCRIPTION>
+		<CULTURE>5</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Psychologie</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Taverne</NAME>
+		<DESCRIPTION>Un lieu ou le Peuple se retrouve pour manger, boire et échanger des histoires.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>10</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Psychologie</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Temple</NAME>
+		<DESCRIPTION>Un autel où le Peuple peut venir vénérer les Anciens dans le Ciel, le Premier Mutant, ou pourquoi pas la Souillure elle même.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Manipulation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Terres agricoles</NAME>
+		<DESCRIPTION>Des lopins de terres sont dégagés pour cultiver du grain, du maïs, des navets, radis ou encore des champignons. Des outils basiques comme des charrues ou des fourches sont construits.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Connaissance de la Zone</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 3D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Théâtre</NAME>
+		<DESCRIPTION>Une scène et une troupe qui divertissent le Peuple avec des pièces à propos de la vie dans l'Arche ou de la chute des Anciens.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Manipulation</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 2D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Tour de guet</NAME>
+		<DESCRIPTION>De là-haut, vous pouvez repérer les menaces de loin.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>5</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Endurance / Observation</SKILL>
+		<WORK>1 * Nombre de PJ</WORK>
+		<BONUS>Défense + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Train</NAME>
+		<DESCRIPTION>Lorsque les trains à vapeur commenceront à rouler dans la Zone, un grand pas en avant aura été fait dans la reconstruction de la civilisation des Anciens.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>30</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Moteur à vapeur / Chemin de Fer</OTHER>
+		<SKILL>Compréhension</SKILL>
+		<WORK>3 * Nombre de PJ</WORK>
+		<BONUS>Nourriture + 1D6 / Culture + 1D6 / Technologie + 1D6 mais uniquement lorsque le train roule sur des rails reliant deux colonies de la Zone. Le bonus de NDEV s'applique pour le tracé entier, pas pour chaque secteur.</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Tribunal</NAME>
+		<DESCRIPTION>Une cour qui a le pouvoir de decider des punitions à l'encontre des mutants qui volent, tuent ou perturbent l'ordre public. Le châtiment corporelle est la norme, l'Arche ne pouvant réellement se permettre de garder des gens enfermés trop longtemps. Le travail forcé ou l'éxil sont aussi des peines possibles.</DESCRIPTION>
+		<CULTURE>10</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>0</TECHNOLOGIE>
+		<DEFENSE>10</DEFENSE>
+		<OTHER></OTHER>
+		<SKILL>Combat / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Culture + 1D6 / Défense + 1D6</BONUS>
+		<SPECIAL></SPECIAL>
+	</PROJECT>
+	<PROJECT>
+		<NAME>Véhicule à vapeur</NAME>
+		<DESCRIPTION>Un véhicule propulsé à la vapeur qui peut traverser la Zone avec grande vitesse et un bruit assourdissant.</DESCRIPTION>
+		<CULTURE>0</CULTURE>
+		<NOURRITURE>0</NOURRITURE>
+		<TECHNOLOGIE>30</TECHNOLOGIE>
+		<DEFENSE>0</DEFENSE>
+		<OTHER>Moteur à vapeur</OTHER>
+		<SKILL>Endurance / Compréhension</SKILL>
+		<WORK>2 * Nombre de PJ</WORK>
+		<BONUS>Technologie + 2D6</BONUS>
+		<SPECIAL>Ce véhicule peut transporter jusqu'à 10 passagers, double la vitesse de déplacement en combat et divise par 2 le temps d'exploration d'un secteur de la Zone. Le fonctionnement des véhicules est expliqué châpitre 6. Le véhicule à vapeur peut être utilisé pour échapper aux menaces ou renverser les ennemis. Bonus d'équipement +1, Armure 3, Résistance 3.</SPECIAL>
+	</PROJECT>
+</PROJECTS>
