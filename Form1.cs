@@ -28,7 +28,17 @@ namespace MAZ_Gestion_Arche
 
         private void GC_ProjectToBuild_DoubleClick(object sender, EventArgs e)
         {
-            lbl_TitreProject.Text = "Projet choisi : " +  XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["NAME"].ToString();
+            lbl_TitreProject.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["NAME"].ToString();
+            Lbl_DescriptionDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["DESCRIPTION"].ToString();
+            lbl_CultureDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["CULTURE"].ToString();
+            lbl_TechnologieDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["TECHNOLOGIE"].ToString();
+            lbl_DefenseDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["DEFENSE"].ToString();
+            lbl_NourritureDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["NOURRITURE"].ToString();
+            lbl_SkillDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["SKILL"].ToString();
+            lbl_OtherDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["OTHER"].ToString();
+            lbl_TempsTravailDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["WORK"].ToString();
+            lbl_SpecialDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["SPECIAL"].ToString();
+            lbl_BonusDetail.Text += XmlProjectSource.Tables["PROJECT"].Rows[((DevExpress.XtraGrid.Views.Base.ColumnView)((DevExpress.XtraGrid.GridControl)sender).FocusedView).FocusedRowHandle]["BONUS"].ToString();
             FP_DetailCard.ShowPopup();
         }
 

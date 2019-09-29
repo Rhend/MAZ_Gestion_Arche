@@ -50,12 +50,21 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraLayout.ColumnDefinition columnDefinition5 = new DevExpress.XtraLayout.ColumnDefinition();
+            DevExpress.XtraLayout.ColumnDefinition columnDefinition6 = new DevExpress.XtraLayout.ColumnDefinition();
+            DevExpress.XtraLayout.ColumnDefinition columnDefinition7 = new DevExpress.XtraLayout.ColumnDefinition();
+            DevExpress.XtraLayout.ColumnDefinition columnDefinition8 = new DevExpress.XtraLayout.ColumnDefinition();
+            DevExpress.XtraLayout.RowDefinition rowDefinition6 = new DevExpress.XtraLayout.RowDefinition();
+            DevExpress.XtraLayout.RowDefinition rowDefinition7 = new DevExpress.XtraLayout.RowDefinition();
             DevExpress.XtraLayout.ColumnDefinition columnDefinition1 = new DevExpress.XtraLayout.ColumnDefinition();
             DevExpress.XtraLayout.ColumnDefinition columnDefinition2 = new DevExpress.XtraLayout.ColumnDefinition();
             DevExpress.XtraLayout.ColumnDefinition columnDefinition3 = new DevExpress.XtraLayout.ColumnDefinition();
             DevExpress.XtraLayout.ColumnDefinition columnDefinition4 = new DevExpress.XtraLayout.ColumnDefinition();
             DevExpress.XtraLayout.RowDefinition rowDefinition1 = new DevExpress.XtraLayout.RowDefinition();
             DevExpress.XtraLayout.RowDefinition rowDefinition2 = new DevExpress.XtraLayout.RowDefinition();
+            DevExpress.XtraLayout.RowDefinition rowDefinition3 = new DevExpress.XtraLayout.RowDefinition();
+            DevExpress.XtraLayout.RowDefinition rowDefinition4 = new DevExpress.XtraLayout.RowDefinition();
+            DevExpress.XtraLayout.RowDefinition rowDefinition5 = new DevExpress.XtraLayout.RowDefinition();
             this.PC_ProjectBuilt = new DevExpress.XtraEditors.PanelControl();
             this.GC_ProjectBuild = new DevExpress.XtraGrid.GridControl();
             this.CV_ProjectBuild = new DevExpress.XtraGrid.Views.Card.CardView();
@@ -92,6 +101,28 @@
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.fluentDesignFormContainer1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
+            this.LC_CardDetail = new DevExpress.XtraLayout.LayoutControl();
+            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.Lbl_DescriptionDetail = new DevExpress.XtraEditors.LabelControl();
+            this.lbl_CultureDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_NourritureDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_TechnologieDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_DefenseDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_OtherDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_SkillDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_TempsTravailDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_BonusDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lbl_SpecialDetail = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.PC_ProjectBuilt)).BeginInit();
             this.PC_ProjectBuilt.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GC_ProjectBuild)).BeginInit();
@@ -104,6 +135,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.FP_DetailCard)).BeginInit();
             this.FP_DetailCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flyoutPanelControl1)).BeginInit();
+            this.flyoutPanelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PC_NDEV)).BeginInit();
             this.PC_NDEV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
@@ -119,6 +151,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LC_CardDetail)).BeginInit();
+            this.LC_CardDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
             this.SuspendLayout();
             // 
             // PC_ProjectBuilt
@@ -312,14 +357,15 @@
             // lbl_TitreProject
             // 
             this.lbl_TitreProject.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
-            this.lbl_TitreProject.Location = new System.Drawing.Point(153, 19);
+            this.lbl_TitreProject.Location = new System.Drawing.Point(3, 17);
             this.lbl_TitreProject.Name = "lbl_TitreProject";
-            this.lbl_TitreProject.Size = new System.Drawing.Size(70, 13);
+            this.lbl_TitreProject.Size = new System.Drawing.Size(68, 13);
             this.lbl_TitreProject.TabIndex = 1;
-            this.lbl_TitreProject.Text = "lbl_titreproject";
+            this.lbl_TitreProject.Text = "Projet choisi : ";
             // 
             // flyoutPanelControl1
             // 
+            this.flyoutPanelControl1.Controls.Add(this.LC_CardDetail);
             this.flyoutPanelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flyoutPanelControl1.FlyoutPanel = this.FP_DetailCard;
             this.flyoutPanelControl1.Location = new System.Drawing.Point(0, 50);
@@ -507,26 +553,26 @@
             this.layoutControlItem5});
             this.LCG_NDEV.LayoutMode = DevExpress.XtraLayout.Utils.LayoutMode.Table;
             this.LCG_NDEV.Name = "LCG_NDEV";
-            columnDefinition1.SizeType = System.Windows.Forms.SizeType.Percent;
-            columnDefinition1.Width = 25D;
-            columnDefinition2.SizeType = System.Windows.Forms.SizeType.Percent;
-            columnDefinition2.Width = 25D;
-            columnDefinition3.SizeType = System.Windows.Forms.SizeType.Percent;
-            columnDefinition3.Width = 25D;
-            columnDefinition4.SizeType = System.Windows.Forms.SizeType.Percent;
-            columnDefinition4.Width = 25D;
+            columnDefinition5.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition5.Width = 25D;
+            columnDefinition6.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition6.Width = 25D;
+            columnDefinition7.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition7.Width = 25D;
+            columnDefinition8.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition8.Width = 25D;
             this.LCG_NDEV.OptionsTableLayoutGroup.ColumnDefinitions.AddRange(new DevExpress.XtraLayout.ColumnDefinition[] {
-            columnDefinition1,
-            columnDefinition2,
-            columnDefinition3,
-            columnDefinition4});
-            rowDefinition1.Height = 25D;
-            rowDefinition1.SizeType = System.Windows.Forms.SizeType.Absolute;
-            rowDefinition2.Height = 25D;
-            rowDefinition2.SizeType = System.Windows.Forms.SizeType.Absolute;
+            columnDefinition5,
+            columnDefinition6,
+            columnDefinition7,
+            columnDefinition8});
+            rowDefinition6.Height = 25D;
+            rowDefinition6.SizeType = System.Windows.Forms.SizeType.Absolute;
+            rowDefinition7.Height = 25D;
+            rowDefinition7.SizeType = System.Windows.Forms.SizeType.Absolute;
             this.LCG_NDEV.OptionsTableLayoutGroup.RowDefinitions.AddRange(new DevExpress.XtraLayout.RowDefinition[] {
-            rowDefinition1,
-            rowDefinition2});
+            rowDefinition6,
+            rowDefinition7});
             this.LCG_NDEV.OptionsTableLayoutItem.ColumnSpan = 4;
             this.LCG_NDEV.Size = new System.Drawing.Size(1260, 105);
             this.LCG_NDEV.TextVisible = false;
@@ -603,6 +649,281 @@
             this.fluentDesignFormControl1.TabIndex = 7;
             this.fluentDesignFormControl1.TabStop = false;
             // 
+            // LC_CardDetail
+            // 
+            this.LC_CardDetail.Controls.Add(this.lbl_SpecialDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_BonusDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_TempsTravailDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_SkillDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_OtherDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_DefenseDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_TechnologieDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_NourritureDetail);
+            this.LC_CardDetail.Controls.Add(this.lbl_CultureDetail);
+            this.LC_CardDetail.Controls.Add(this.Lbl_DescriptionDetail);
+            this.LC_CardDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LC_CardDetail.Location = new System.Drawing.Point(2, 2);
+            this.LC_CardDetail.Name = "LC_CardDetail";
+            this.LC_CardDetail.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1098, 190, 650, 400);
+            this.LC_CardDetail.Root = this.Root;
+            this.LC_CardDetail.Size = new System.Drawing.Size(375, 193);
+            this.LC_CardDetail.TabIndex = 0;
+            this.LC_CardDetail.Text = "layoutControl2";
+            // 
+            // Root
+            // 
+            this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.Root.GroupBordersVisible = false;
+            this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem6,
+            this.layoutControlItem7,
+            this.layoutControlItem8,
+            this.layoutControlItem9,
+            this.layoutControlItem10,
+            this.layoutControlItem11,
+            this.layoutControlItem12,
+            this.layoutControlItem13,
+            this.layoutControlItem14,
+            this.layoutControlItem15});
+            this.Root.LayoutMode = DevExpress.XtraLayout.Utils.LayoutMode.Table;
+            this.Root.Name = "Root";
+            this.Root.OptionsItemText.TextAlignMode = DevExpress.XtraLayout.TextAlignModeGroup.CustomSize;
+            columnDefinition1.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition1.Width = 25D;
+            columnDefinition2.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition2.Width = 25D;
+            columnDefinition3.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition3.Width = 25D;
+            columnDefinition4.SizeType = System.Windows.Forms.SizeType.Percent;
+            columnDefinition4.Width = 25D;
+            this.Root.OptionsTableLayoutGroup.ColumnDefinitions.AddRange(new DevExpress.XtraLayout.ColumnDefinition[] {
+            columnDefinition1,
+            columnDefinition2,
+            columnDefinition3,
+            columnDefinition4});
+            rowDefinition1.Height = 17D;
+            rowDefinition1.SizeType = System.Windows.Forms.SizeType.AutoSize;
+            rowDefinition2.Height = 17D;
+            rowDefinition2.SizeType = System.Windows.Forms.SizeType.AutoSize;
+            rowDefinition3.Height = 17D;
+            rowDefinition3.SizeType = System.Windows.Forms.SizeType.AutoSize;
+            rowDefinition4.Height = 17D;
+            rowDefinition4.SizeType = System.Windows.Forms.SizeType.AutoSize;
+            rowDefinition5.Height = 88D;
+            rowDefinition5.SizeType = System.Windows.Forms.SizeType.AutoSize;
+            this.Root.OptionsTableLayoutGroup.RowDefinitions.AddRange(new DevExpress.XtraLayout.RowDefinition[] {
+            rowDefinition1,
+            rowDefinition2,
+            rowDefinition3,
+            rowDefinition4,
+            rowDefinition5});
+            this.Root.Size = new System.Drawing.Size(420, 176);
+            this.Root.TextVisible = false;
+            // 
+            // Lbl_DescriptionDetail
+            // 
+            this.Lbl_DescriptionDetail.Appearance.Options.UseTextOptions = true;
+            this.Lbl_DescriptionDetail.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.Lbl_DescriptionDetail.Location = new System.Drawing.Point(12, 12);
+            this.Lbl_DescriptionDetail.Name = "Lbl_DescriptionDetail";
+            this.Lbl_DescriptionDetail.Size = new System.Drawing.Size(60, 13);
+            this.Lbl_DescriptionDetail.StyleController = this.LC_CardDetail;
+            this.Lbl_DescriptionDetail.TabIndex = 4;
+            this.Lbl_DescriptionDetail.Text = "Description : ";
+            // 
+            // lbl_CultureDetail
+            // 
+            this.lbl_CultureDetail.Location = new System.Drawing.Point(12, 29);
+            this.lbl_CultureDetail.Name = "lbl_CultureDetail";
+            this.lbl_CultureDetail.Size = new System.Drawing.Size(74, 13);
+            this.lbl_CultureDetail.StyleController = this.LC_CardDetail;
+            this.lbl_CultureDetail.TabIndex = 5;
+            this.lbl_CultureDetail.Text = "NDEV Culture : ";
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.lbl_CultureDetail;
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 17);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.OptionsTableLayoutItem.RowIndex = 1;
+            this.layoutControlItem7.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem7.TextVisible = false;
+            // 
+            // lbl_NourritureDetail
+            // 
+            this.lbl_NourritureDetail.Location = new System.Drawing.Point(112, 29);
+            this.lbl_NourritureDetail.Name = "lbl_NourritureDetail";
+            this.lbl_NourritureDetail.Size = new System.Drawing.Size(88, 13);
+            this.lbl_NourritureDetail.StyleController = this.LC_CardDetail;
+            this.lbl_NourritureDetail.TabIndex = 6;
+            this.lbl_NourritureDetail.Text = "NDEV Nourriture : ";
+            // 
+            // layoutControlItem8
+            // 
+            this.layoutControlItem8.Control = this.lbl_NourritureDetail;
+            this.layoutControlItem8.Location = new System.Drawing.Point(100, 17);
+            this.layoutControlItem8.Name = "layoutControlItem8";
+            this.layoutControlItem8.OptionsTableLayoutItem.ColumnIndex = 1;
+            this.layoutControlItem8.OptionsTableLayoutItem.RowIndex = 1;
+            this.layoutControlItem8.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem8.TextVisible = false;
+            // 
+            // lbl_TechnologieDetail
+            // 
+            this.lbl_TechnologieDetail.Location = new System.Drawing.Point(212, 29);
+            this.lbl_TechnologieDetail.Name = "lbl_TechnologieDetail";
+            this.lbl_TechnologieDetail.Size = new System.Drawing.Size(96, 13);
+            this.lbl_TechnologieDetail.StyleController = this.LC_CardDetail;
+            this.lbl_TechnologieDetail.TabIndex = 7;
+            this.lbl_TechnologieDetail.Text = "NDEV Technologie : ";
+            // 
+            // layoutControlItem9
+            // 
+            this.layoutControlItem9.Control = this.lbl_TechnologieDetail;
+            this.layoutControlItem9.Location = new System.Drawing.Point(200, 17);
+            this.layoutControlItem9.Name = "layoutControlItem9";
+            this.layoutControlItem9.OptionsTableLayoutItem.ColumnIndex = 2;
+            this.layoutControlItem9.OptionsTableLayoutItem.RowIndex = 1;
+            this.layoutControlItem9.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem9.TextVisible = false;
+            // 
+            // lbl_DefenseDetail
+            // 
+            this.lbl_DefenseDetail.Location = new System.Drawing.Point(312, 29);
+            this.lbl_DefenseDetail.Name = "lbl_DefenseDetail";
+            this.lbl_DefenseDetail.Size = new System.Drawing.Size(79, 13);
+            this.lbl_DefenseDetail.StyleController = this.LC_CardDetail;
+            this.lbl_DefenseDetail.TabIndex = 8;
+            this.lbl_DefenseDetail.Text = "NDEV Défense : ";
+            // 
+            // layoutControlItem10
+            // 
+            this.layoutControlItem10.Control = this.lbl_DefenseDetail;
+            this.layoutControlItem10.Location = new System.Drawing.Point(300, 17);
+            this.layoutControlItem10.Name = "layoutControlItem10";
+            this.layoutControlItem10.OptionsTableLayoutItem.ColumnIndex = 3;
+            this.layoutControlItem10.OptionsTableLayoutItem.RowIndex = 1;
+            this.layoutControlItem10.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem10.TextVisible = false;
+            // 
+            // lbl_OtherDetail
+            // 
+            this.lbl_OtherDetail.Location = new System.Drawing.Point(12, 46);
+            this.lbl_OtherDetail.Name = "lbl_OtherDetail";
+            this.lbl_OtherDetail.Size = new System.Drawing.Size(86, 13);
+            this.lbl_OtherDetail.StyleController = this.LC_CardDetail;
+            this.lbl_OtherDetail.TabIndex = 9;
+            this.lbl_OtherDetail.Text = "Autre pré-requis :";
+            // 
+            // layoutControlItem11
+            // 
+            this.layoutControlItem11.Control = this.lbl_OtherDetail;
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 34);
+            this.layoutControlItem11.Name = "layoutControlItem11";
+            this.layoutControlItem11.OptionsTableLayoutItem.RowIndex = 2;
+            this.layoutControlItem11.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem11.TextVisible = false;
+            // 
+            // lbl_SkillDetail
+            // 
+            this.lbl_SkillDetail.Location = new System.Drawing.Point(212, 46);
+            this.lbl_SkillDetail.Name = "lbl_SkillDetail";
+            this.lbl_SkillDetail.Size = new System.Drawing.Size(70, 13);
+            this.lbl_SkillDetail.StyleController = this.LC_CardDetail;
+            this.lbl_SkillDetail.TabIndex = 10;
+            this.lbl_SkillDetail.Text = "Compétence : ";
+            // 
+            // layoutControlItem12
+            // 
+            this.layoutControlItem12.Control = this.lbl_SkillDetail;
+            this.layoutControlItem12.Location = new System.Drawing.Point(200, 34);
+            this.layoutControlItem12.Name = "layoutControlItem12";
+            this.layoutControlItem12.OptionsTableLayoutItem.ColumnIndex = 2;
+            this.layoutControlItem12.OptionsTableLayoutItem.ColumnSpan = 2;
+            this.layoutControlItem12.OptionsTableLayoutItem.RowIndex = 2;
+            this.layoutControlItem12.Size = new System.Drawing.Size(200, 17);
+            this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem12.TextVisible = false;
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.AppearanceItemCaption.Options.UseTextOptions = true;
+            this.layoutControlItem6.AppearanceItemCaption.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.layoutControlItem6.Control = this.Lbl_DescriptionDetail;
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.OptionsTableLayoutItem.ColumnSpan = 4;
+            this.layoutControlItem6.Size = new System.Drawing.Size(400, 17);
+            this.layoutControlItem6.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem6.TextToControlDistance = 0;
+            this.layoutControlItem6.TextVisible = false;
+            // 
+            // lbl_TempsTravailDetail
+            // 
+            this.lbl_TempsTravailDetail.Location = new System.Drawing.Point(112, 46);
+            this.lbl_TempsTravailDetail.Name = "lbl_TempsTravailDetail";
+            this.lbl_TempsTravailDetail.Size = new System.Drawing.Size(89, 13);
+            this.lbl_TempsTravailDetail.StyleController = this.LC_CardDetail;
+            this.lbl_TempsTravailDetail.TabIndex = 11;
+            this.lbl_TempsTravailDetail.Text = "Temps de travail : ";
+            // 
+            // layoutControlItem13
+            // 
+            this.layoutControlItem13.Control = this.lbl_TempsTravailDetail;
+            this.layoutControlItem13.Location = new System.Drawing.Point(100, 34);
+            this.layoutControlItem13.Name = "layoutControlItem13";
+            this.layoutControlItem13.OptionsTableLayoutItem.ColumnIndex = 1;
+            this.layoutControlItem13.OptionsTableLayoutItem.RowIndex = 2;
+            this.layoutControlItem13.Size = new System.Drawing.Size(100, 17);
+            this.layoutControlItem13.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem13.TextVisible = false;
+            // 
+            // lbl_BonusDetail
+            // 
+            this.lbl_BonusDetail.Location = new System.Drawing.Point(12, 63);
+            this.lbl_BonusDetail.Name = "lbl_BonusDetail";
+            this.lbl_BonusDetail.Size = new System.Drawing.Size(39, 13);
+            this.lbl_BonusDetail.StyleController = this.LC_CardDetail;
+            this.lbl_BonusDetail.TabIndex = 12;
+            this.lbl_BonusDetail.Text = "Bonus : ";
+            // 
+            // layoutControlItem14
+            // 
+            this.layoutControlItem14.Control = this.lbl_BonusDetail;
+            this.layoutControlItem14.Location = new System.Drawing.Point(0, 51);
+            this.layoutControlItem14.Name = "layoutControlItem14";
+            this.layoutControlItem14.OptionsTableLayoutItem.ColumnSpan = 4;
+            this.layoutControlItem14.OptionsTableLayoutItem.RowIndex = 3;
+            this.layoutControlItem14.Size = new System.Drawing.Size(400, 17);
+            this.layoutControlItem14.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem14.TextVisible = false;
+            // 
+            // lbl_SpecialDetail
+            // 
+            this.lbl_SpecialDetail.Location = new System.Drawing.Point(12, 80);
+            this.lbl_SpecialDetail.Name = "lbl_SpecialDetail";
+            this.lbl_SpecialDetail.Size = new System.Drawing.Size(43, 13);
+            this.lbl_SpecialDetail.StyleController = this.LC_CardDetail;
+            this.lbl_SpecialDetail.TabIndex = 13;
+            this.lbl_SpecialDetail.Text = "Spécial : ";
+            // 
+            // layoutControlItem15
+            // 
+            this.layoutControlItem15.Control = this.lbl_SpecialDetail;
+            this.layoutControlItem15.Location = new System.Drawing.Point(0, 68);
+            this.layoutControlItem15.Name = "layoutControlItem15";
+            this.layoutControlItem15.OptionsTableLayoutItem.ColumnSpan = 4;
+            this.layoutControlItem15.OptionsTableLayoutItem.RowIndex = 4;
+            this.layoutControlItem15.Size = new System.Drawing.Size(400, 88);
+            this.layoutControlItem15.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem15.TextVisible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -631,6 +952,7 @@
             this.FP_DetailCard.ResumeLayout(false);
             this.FP_DetailCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.flyoutPanelControl1)).EndInit();
+            this.flyoutPanelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PC_NDEV)).EndInit();
             this.PC_NDEV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
@@ -646,6 +968,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LC_CardDetail)).EndInit();
+            this.LC_CardDetail.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -687,5 +1022,27 @@
         private DevExpress.XtraEditors.LabelControl lbl_TitreProject;
         private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer fluentDesignFormContainer1;
         private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl fluentDesignFormControl1;
+        private DevExpress.XtraLayout.LayoutControl LC_CardDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_SpecialDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_BonusDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_TempsTravailDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_SkillDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_OtherDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_DefenseDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_TechnologieDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_NourritureDetail;
+        private DevExpress.XtraEditors.LabelControl lbl_CultureDetail;
+        private DevExpress.XtraEditors.LabelControl Lbl_DescriptionDetail;
+        private DevExpress.XtraLayout.LayoutControlGroup Root;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem14;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem15;
     }
 }
